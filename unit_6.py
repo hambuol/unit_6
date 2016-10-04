@@ -3,9 +3,10 @@
 
 def get_list():
     n = int(input("give the max number"))
-    my_list = list(range(2,n+1))
-    return(my_list)
+    original = list(range(2,n+1))
+    return(original)
 
-my_list = get_list()
 
-print(my_list)
+original = get_list()
+print(original)
+
