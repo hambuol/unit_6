@@ -24,6 +24,7 @@ def put_in_prime(original):
     return primes
 
 
+# function runs all other functions in order
 def main():
     original = get_list()
     primes = put_in_prime(original)
